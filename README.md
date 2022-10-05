@@ -8,7 +8,8 @@
 
 # Sandbox 🦊
 
-This is a repository where trial writing of frameworks and libraries are stored.
+This is a repository where trial writing of frameworks and libraries are stored.<br/>
+貝塚 is a place in ancient Japan where shells and other objects are place.
 
 ![It means like a shell mound(kaizuka).](./imgs/fudechar_pukbi.png)
 
