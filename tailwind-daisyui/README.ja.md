@@ -36,7 +36,6 @@ npx tailwindcss -i input.css -o ../style/output.css --watch
 ## ⬇️  Install
 
 ```
-# use degit to clone to your repository
 # degitを使用してcloneします
 degit Comamoca/sandbox/tailwind-daisyui/tailwind/
 ```
