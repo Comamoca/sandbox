@@ -20,6 +20,8 @@
 ## 🚀 使い方
 
 ```
+cd tailwind
+
 # npm
 npm install
 
