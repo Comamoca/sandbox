@@ -21,6 +21,8 @@
 ## 🚀 How to use
 
 ```
+cd tailwind
+
 # npm
 npm install
 
