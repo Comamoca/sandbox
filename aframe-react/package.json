@@ -1,0 +1,27 @@
+{
+  "name": "aframe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@belivvr/aframe-react": "^0.4.2",
+    "a-mmd": "^1.0.3",
+    "aframe": "github:aframevr/aframe#480a303b3c1932170552a3e4f9287298c1039c27",
+    "ammojs": "^0.0.2",
+    "eslint": "^7.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}

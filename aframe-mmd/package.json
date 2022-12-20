@@ -1,0 +1,19 @@
+{
+  "name": "aframe-mmd",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "a-mmd": "^1.0.3",
+    "aframe": "^1.3.0"
+  }
+}
