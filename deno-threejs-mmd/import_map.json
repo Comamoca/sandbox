@@ -1,0 +1,5 @@
+{
+  "imports":{
+    "three/": "https://deno.land/x/threejs_4_deno@v121/"
+  }
+}
