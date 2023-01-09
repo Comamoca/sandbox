@@ -10,7 +10,7 @@
 
 # emoji2svg.rs
 
-emoji2svg CLI tool
+[emoji2svg](https://emoji2svg.deno.dev) CLI tool
 
 <br>
 <br>
