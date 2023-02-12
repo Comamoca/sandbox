@@ -1,0 +1,9 @@
+name: sample_app
+description: Flutter music player example application.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '^3.0.0-122.0.dev'
+dependencies:
+  http: ^0.13.5
+  web_socket_channel: ^2.3.0
