@@ -1,0 +1,16 @@
+github.com/Comamoca/chuno v0.0.0-20221231142918-bace406806a7 h1:MqEXNQ0ksTcDG8wJe1268xtFk5aH/E3vjj7kerHIM5Y=
+github.com/Comamoca/chuno v0.0.0-20221231142918-bace406806a7/go.mod h1:f0anaGgmNZvX0kUwNfhvqfUELEdhydSCoE6zaKdwbjU=
+github.com/Comamoca/chuno v0.0.0-20221231212549-d607f06f67a1 h1:EeeBAWjVK4AXTJQQL3Y3cxieSugzg2UbIil+NEMJih8=
+github.com/Comamoca/chuno v0.0.0-20221231212549-d607f06f67a1/go.mod h1:f0anaGgmNZvX0kUwNfhvqfUELEdhydSCoE6zaKdwbjU=
+github.com/Comamoca/chuno v0.0.0-20230405001647-7c85665cc8d0 h1:DWI2vUMBMGnB+npRE0p/NDuR1CodIKdQvkVDr3ZP+Jc=
+github.com/Comamoca/chuno v0.0.0-20230405001647-7c85665cc8d0/go.mod h1:f0anaGgmNZvX0kUwNfhvqfUELEdhydSCoE6zaKdwbjU=
+github.com/fsnotify/fsnotify v1.6.0 h1:n+5WquG0fcWoWp6xPWfHdbskMCQaFnG6PfBrh1Ky4HY=
+github.com/fsnotify/fsnotify v1.6.0/go.mod h1:sl3t1tCWJFWoRz9R8WJCbQihKKwmorjAbSClcnxKAGw=
+github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
+github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/jaschaephraim/lrserver v0.0.0-20171129202958-50d19f603f71 h1:24NdJ5N6gtrcoeS4JwLMeruKFmg20QdF/5UnX5S/j18=
+github.com/jaschaephraim/lrserver v0.0.0-20171129202958-50d19f603f71/go.mod h1:ozZLfjiLmXytkIUh200wMeuoQJ4ww06wN+KZtFP6j3g=
+github.com/yuin/goldmark v1.5.3 h1:3HUJmBFbQW9fhQOzMgseU134xfi6hU+mjWywx5Ty+/M=
+github.com/yuin/goldmark v1.5.3/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
+golang.org/x/sys v0.0.0-20220908164124-27713097b956 h1:XeJjHH1KiLpKGb6lvMiksZ9l0fVUh+AmGcm0nOMEBOY=
+golang.org/x/sys v0.0.0-20220908164124-27713097b956/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
