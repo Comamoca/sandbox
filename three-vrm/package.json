@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@pixiv/three-vrm": "^0.6",
+    "@pixiv/types-vrmc-vrm-1.0": "^1.0.0",
+    "@tensorflow/tfjs-node": "^4.2.0",
+    "@types/three": ">=0.146.0 <0.147.0",
+    "canvas": "^2.11.0",
+    "esbuild": "^0.17.3",
+    "face-api.js": "^0.22.2",
+    "three": "^0.148.0"
+  }
+}
