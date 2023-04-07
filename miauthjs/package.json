@@ -1,0 +1,16 @@
+{
+  "name": "miauthjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Comamoca <comamoca.dev@gmail.com> (https://github.com/Comamoca)",
+  "license": "ISC",
+  "dependencies": {
+    "miauth-js": "^0.0.4",
+    "misskey-js": "^0.0.15"
+  }
+}
