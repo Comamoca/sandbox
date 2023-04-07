@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+video {
+  max-width: 320px;
+  height: auto;
+  transform: scale(-1, 1);
+}
+
+#preview {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#preview canvas {
+  transform: scale(-1, 1);
+}
+
+#my-guides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="custom.css"/>
+		<!-- Live2D -->
+		<script src="./js/live2dcubismcore.min.js"></script>
+		<script src="./js/live2d.min.js"></script>
+		<!-- PixiJS -->
+		<script src="./js/pixi.min.js"></script>
+		<script src="./js/index.min.js"></script>
+		<!-- Mediapipe -->
+		<script src="./js/face_mesh.js"></script>
+		<script src="./js/drawing_utils.js"></script>
+		<script src="./js/camera_utils.js"></script>
+		<!-- Kalidokit -->
+		<script src="./js/kalidokit.umd.js"></script>
+	</head>
+	<body>
+		<!-- Preview -->
+		<div id="preview">
+			<video id="my-video"></video>
+			<canvas id="my-guides"></canvas>
+		</div>
+		<!-- Live2D -->
+		<canvas id="my-live2d"></canvas>
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
