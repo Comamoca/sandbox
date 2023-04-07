@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bombing-python"
+version = "0.1.0"
+description = ""
+authors = ["Comamoca <comamoca.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bombing_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
