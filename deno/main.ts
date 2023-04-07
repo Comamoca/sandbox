@@ -7,14 +7,25 @@ const dec = new TextDecoder("utf-8");
 const text = dec.decode(result);
 // console.log(text);
 
-const html = Marked.parse(text).content
+const html = Marked.parse(text).content;
 
-console.log(html)
+console.log(html);
 
 const s = serve({ port: 8000 });
 
-const meta = '<meta charset="UTF-8">'
+const tmpl = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Deno markdown SSR</title>
+</head>
+<body>
+${html}
+</body>
+</html>
+`;
 
 for await (const req of s) {
-  req.respond({ body: meta + html });
+	req.respond({ body: tmpl });
 }
