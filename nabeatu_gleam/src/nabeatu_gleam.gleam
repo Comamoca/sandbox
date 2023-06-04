@@ -1,11 +1,19 @@
 import gleam/io
 import gleam/list
 import gleam/int
+import gleam/string
+
+const aho = "アホになる"
 
 fn nabeatu(x: Int) -> String {
-  case x%3 {
-    0 -> "アホになる"
+  let result = case x%3 {
+    0 -> aho
     _ -> int.to_string(x)
+    }
+
+  case string.contains(result, "3") {
+    True -> aho
+    False -> result
   }
 }
 
