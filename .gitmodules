@@ -1,0 +1,9 @@
+[submodule "ziglua/ziglua"]
+	path = ziglua/ziglua
+	url = https://github.com/natecraddock/ziglua
+[submodule "singlua/ziglua"]
+	path = singlua/ziglua
+	url = https://github.com/natecraddock/ziglua
+[submodule "singlua/lua"]
+	path = singlua/lua
+	url = https://github.com/lua/lua
