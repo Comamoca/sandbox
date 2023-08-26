@@ -1,0 +1,194 @@
+# dune exec ocaml
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /home/coma/ghq/github.com/Comamoca/sandbox/ocaml
+# Auto-detected concurrency: 16
+$ /usr/sbin/ocamlc.opt -config > /tmp/dune_14b5fc_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; ocaml_bin = External "/usr/sbin"
+#  ; ocaml = Ok External "/usr/sbin/ocaml"
+#  ; ocamlc = External "/usr/sbin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/usr/sbin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/usr/sbin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/usr/sbin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/usr/lib/ocaml:/home/coma/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/usr/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/home/coma/ghq/github.com/Comamoca/sandbox/ocaml"
+#        ; "INSIDE_DUNE" :
+#            "/home/coma/ghq/github.com/Comamoca/sandbox/ocaml/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/coma/ghq/github.com/Comamoca/sandbox/ocaml/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/coma/ghq/github.com/Comamoca/sandbox/ocaml/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/coma/ghq/github.com/Comamoca/sandbox/ocaml/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/usr/lib/ocaml"; External "/home/coma/.opam/default/lib" ]
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default = "/usr/lib/ocaml"
+#      ; standard_library = "/usr/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags =
+#          [ "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-g"
+#          ; "-fno-omit-frame-pointer"
+#          ; "-fPIC"
+#          ; "-march=x86-64"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-fno-plt"
+#          ; "-fexceptions"
+#          ; "-Wp,-D_FORTIFY_SOURCE=2"
+#          ; "-Wformat"
+#          ; "-Werror=format-security"
+#          ; "-fstack-clash-protection"
+#          ; "-fcf-protection"
+#          ; "-g"
+#          ; "-ffile-prefix-map=/build/ocaml/src=/usr/src/debug/ocaml"
+#          ; "-flto=auto"
+#          ; "-ffat-lto-objects"
+#          ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-g"
+#          ; "-fno-omit-frame-pointer"
+#          ; "-fPIC"
+#          ; "-march=x86-64"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-fno-plt"
+#          ; "-fexceptions"
+#          ; "-Wp,-D_FORTIFY_SOURCE=2"
+#          ; "-Wformat"
+#          ; "-Werror=format-security"
+#          ; "-fstack-clash-protection"
+#          ; "-fcf-protection"
+#          ; "-g"
+#          ; "-ffile-prefix-map=/build/ocaml/src=/usr/src/debug/ocaml"
+#          ; "-flto=auto"
+#          ; "-ffat-lto-objects"
+#          ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-g"
+#          ; "-fno-omit-frame-pointer"
+#          ; "-fPIC"
+#          ; "-march=x86-64"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-fno-plt"
+#          ; "-fexceptions"
+#          ; "-Wp,-D_FORTIFY_SOURCE=2"
+#          ; "-Wformat"
+#          ; "-Werror=format-security"
+#          ; "-fstack-clash-protection"
+#          ; "-fcf-protection"
+#          ; "-g"
+#          ; "-ffile-prefix-map=/build/ocaml/src=/usr/src/debug/ocaml"
+#          ; "-flto=auto"
+#          ; "-ffat-lto-objects"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-g"
+#          ; "-fno-omit-frame-pointer"
+#          ; "-fPIC"
+#          ; "-march=x86-64"
+#          ; "-mtune=generic"
+#          ; "-O2"
+#          ; "-pipe"
+#          ; "-fno-plt"
+#          ; "-fexceptions"
+#          ; "-Wp,-D_FORTIFY_SOURCE=2"
+#          ; "-Wformat"
+#          ; "-Werror=format-security"
+#          ; "-fstack-clash-protection"
+#          ; "-fcf-protection"
+#          ; "-g"
+#          ; "-ffile-prefix-map=/build/ocaml/src=/usr/src/debug/ocaml"
+#          ; "-flto=auto"
+#          ; "-ffat-lto-objects"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = true
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /usr/sbin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /home/coma/.opam/default/lib/angstrom -I /home/coma/.opam/default/lib/astring -I /home/coma/.opam/default/lib/async -I /home/coma/.opam/default/lib/async/async_command -I /home/coma/.opam/default/lib/async/async_quickcheck -I /home/coma/.opam/default/lib/async/async_rpc -I /home/coma/.opam/default/lib/async_kernel -I /home/coma/.opam/default/lib/async_kernel/config -I /home/coma/.opam/default/lib/async_kernel/eager_deferred -I /home/coma/.opam/default/lib/async_kernel/persistent_connection_kernel -I /home/coma/.opam/default/lib/async_kernel/read_write_pair -I /home/coma/.opam/default/lib/async_rpc_kernel -I /home/coma/.opam/default/lib/async_unix -I /home/coma/.opam/default/lib/async_unix/thread_pool -I /home/coma/.opam/default/lib/async_unix/thread_safe_ivar -I /home/coma/.opam/default/lib/base -I /home/coma/.opam/default/lib/base/base_internalhash_types -I /home/coma/.opam/default/lib/base/caml -I /home/coma/.opam/default/lib/base/md5 -I /home/coma/.opam/default/lib/base/shadow_stdlib -I /home/coma/.opam/default/lib/base64 -I /home/coma/.opam/default/lib/base_bigstring -I /home/coma/.opam/default/lib/base_quickcheck -I /home/coma/.opam/default/lib/base_quickcheck/ppx_quickcheck/runtime -I /home/coma/.opam/default/lib/bigstringaf -I /home/coma/.opam/default/lib/bin_prot -I /home/coma/.opam/default/lib/bin_prot/shape -I /home/coma/.opam/default/lib/cohttp -I /home/coma/.opam/default/lib/cohttp-async -I /home/coma/.opam/default/lib/cohttp-lwt -I /home/coma/.opam/default/lib/cohttp-lwt-unix -I /home/coma/.opam/default/lib/conduit -I /home/coma/.opam/default/lib/conduit-async -I /home/coma/.opam/default/lib/conduit-lwt -I /home/coma/.opam/default/lib/conduit-lwt-unix -I /home/coma/.opam/default/lib/core -I /home/coma/.opam/default/lib/core/base_for_tests -I /home/coma/.opam/default/lib/core/command -I /home/coma/.opam/default/lib/core/filename_base -I /home/coma/.opam/default/lib/core/heap_block -I /home/coma/.opam/default/lib/core/univ_map -I /home/coma/.opam/default/lib/core/validate -I /home/coma/.opam/default/lib/core_kernel/bounded_int_table -I /home/coma/.opam/default/lib/core_kernel/bus -I /home/coma/.opam/default/lib/core_kernel/caml_threads -I /home/coma/.opam/default/lib/core_kernel/caml_unix -I /home/coma/.opam/default/lib/core_kernel/flags -I /home/coma/.opam/default/lib/core_kernel/iobuf -I /home/coma/.opam/default/lib/core_kernel/moption -I /home/coma/.opam/default/lib/core_kernel/pairing_heap -I /home/coma/.opam/default/lib/core_kernel/sexp_hidden_in_test -I /home/coma/.opam/default/lib/core_kernel/thread_pool_cpu_affinity -I /home/coma/.opam/default/lib/core_kernel/thread_safe_queue -I /home/coma/.opam/default/lib/core_kernel/timing_wheel -I /home/coma/.opam/default/lib/core_kernel/tuple_pool -I /home/coma/.opam/default/lib/core_kernel/uopt -I /home/coma/.opam/default/lib/core_kernel/uuid -I /home/coma/.opam/default/lib/core_unix -I /home/coma/.opam/default/lib/core_unix/bigstring_unix -I /home/coma/.opam/default/lib/core_unix/core_thread -I /home/coma/.opam/default/lib/core_unix/error_checking_mutex -I /home/coma/.opam/default/lib/core_unix/filename_unix -I /home/coma/.opam/default/lib/core_unix/iobuf_unix -I /home/coma/.opam/default/lib/core_unix/linux_ext -I /home/coma/.opam/default/lib/core_unix/nano_mutex -I /home/coma/.opam/default/lib/core_unix/ocaml_c_utils -I /home/coma/.opam/default/lib/core_unix/signal_unix -I /home/coma/.opam/default/lib/core_unix/squeue -I /home/coma/.opam/default/lib/core_unix/sys_unix -I /home/coma/.opam/default/lib/core_unix/time_float_unix -I /home/coma/.opam/default/lib/core_unix/time_ns_unix -I /home/coma/.opam/default/lib/core_unix/time_stamp_counter -I /home/coma/.opam/default/lib/core_unix/uuid -I /home/coma/.opam/default/lib/domain-name -I /home/coma/.opam/default/lib/fieldslib -I /home/coma/.opam/default/lib/fmt -I /home/coma/.opam/default/lib/int_repr -I /home/coma/.opam/default/lib/ipaddr -I /home/coma/.opam/default/lib/ipaddr-sexp -I /home/coma/.opam/default/lib/ipaddr/unix -I /home/coma/.opam/default/lib/jane-street-headers -I /home/coma/.opam/default/lib/logs -I /home/coma/.opam/default/lib/lwt -I /home/coma/.opam/default/lib/lwt/unix -I /home/coma/.opam/default/lib/lwt_ssl -I /home/coma/.opam/default/lib/macaddr -I /home/coma/.opam/default/lib/magic-mime -I /home/coma/.opam/default/lib/ocaml_intrinsics -I /home/coma/.opam/default/lib/ocplib-endian -I /home/coma/.opam/default/lib/ocplib-endian/bigstring -I /home/coma/.opam/default/lib/parsexp -I /home/coma/.opam/default/lib/ppx_assert/runtime-lib -I /home/coma/.opam/default/lib/ppx_bench/runtime-lib -I /home/coma/.opam/default/lib/ppx_compare/runtime-lib -I /home/coma/.opam/default/lib/ppx_enumerate/runtime-lib -I /home/coma/.opam/default/lib/ppx_expect/collector -I /home/coma/.opam/default/lib/ppx_expect/common -I /home/coma/.opam/default/lib/ppx_expect/config -I /home/coma/.opam/default/lib/ppx_expect/config_types -I /home/coma/.opam/default/lib/ppx_hash/runtime-lib -I /home/coma/.opam/default/lib/ppx_here/runtime-lib -I /home/coma/.opam/default/lib/ppx_inline_test/config -I /home/coma/.opam/default/lib/ppx_inline_test/runtime-lib -I /home/coma/.opam/default/lib/ppx_log/types -I /home/coma/.opam/default/lib/ppx_module_timer/runtime -I /home/coma/.opam/default/lib/ppx_sexp_conv/runtime-lib -I /home/coma/.opam/default/lib/ppx_stable_witness/runtime -I /home/coma/.opam/default/lib/ppx_stable_witness/stable_witness -I /home/coma/.opam/default/lib/protocol_version_header -I /home/coma/.opam/default/lib/re -I /home/coma/.opam/default/lib/seq -I /home/coma/.opam/default/lib/sexplib -I /home/coma/.opam/default/lib/sexplib/unix -I /home/coma/.opam/default/lib/sexplib0 -I /home/coma/.opam/default/lib/spawn -I /home/coma/.opam/default/lib/splittable_random -I /home/coma/.opam/default/lib/ssl -I /home/coma/.opam/default/lib/stdio -I /home/coma/.opam/default/lib/stringext -I /home/coma/.opam/default/lib/time_now -I /home/coma/.opam/default/lib/timezone -I /home/coma/.opam/default/lib/typerep -I /home/coma/.opam/default/lib/uri -I /home/coma/.opam/default/lib/uri-sexp -I /home/coma/.opam/default/lib/uri/services -I /home/coma/.opam/default/lib/variantslib -I /usr/lib/ocaml/bytes -I /usr/lib/ocaml/threads -I /usr/lib/ocaml/unix -I lib/.ocaml.objs/byte -I lib/.ocaml.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /usr/sbin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/ocaml.cmxa /home/coma/.opam/default/lib/fmt/fmt.cmxa /home/coma/.opam/default/lib/logs/logs.cmxa /home/coma/.opam/default/lib/lwt/lwt.cmxa /home/coma/.opam/default/lib/logs/logs_lwt.cmxa /home/coma/.opam/default/lib/sexplib0/sexplib0.cmxa /home/coma/.opam/default/lib/parsexp/parsexp.cmxa /home/coma/.opam/default/lib/sexplib/sexplib.cmxa /home/coma/.opam/default/lib/macaddr/macaddr.cmxa /home/coma/.opam/default/lib/domain-name/domain_name.cmxa /home/coma/.opam/default/lib/ipaddr/ipaddr.cmxa /home/coma/.opam/default/lib/ppx_sexp_conv/runtime-lib/ppx_sexp_conv_lib.cmxa /home/coma/.opam/default/lib/ipaddr-sexp/ipaddr_sexp.cmxa /home/coma/.opam/default/lib/stringext/stringext.cmxa /home/coma/.opam/default/lib/bigstringaf/bigstringaf.cmxa -I /home/coma/.opam/default/lib/bigstringaf /home/coma/.opam/default/lib/angstrom/angstrom.cmxa /home/coma/.opam/default/lib/uri/uri.cmxa /home/coma/.opam/default/lib/astring/astring.cmxa /home/coma/.opam/default/lib/conduit/conduit.cmxa /home/coma/.opam/default/lib/conduit-lwt/conduit_lwt.cmxa /home/coma/.opam/default/lib/magic-mime/magic_mime_library.cmxa /home/coma/.opam/default/lib/ocplib-endian/ocplib_endian.cmxa /home/coma/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cmxa /usr/lib/ocaml/unix/unix.cmxa /usr/lib/ocaml/threads/threads.cmxa /home/coma/.opam/default/lib/lwt/unix/lwt_unix.cmxa -I /home/coma/.opam/default/lib/lwt/unix /home/coma/.opam/default/lib/uri/services/uri_services.cmxa /home/coma/.opam/default/lib/ipaddr/unix/ipaddr_unix.cmxa /home/coma/.opam/default/lib/ssl/ssl.cmxa -I /home/coma/.opam/default/lib/ssl /home/coma/.opam/default/lib/lwt_ssl/lwt_ssl.cmxa /home/coma/.opam/default/lib/conduit-lwt-unix/conduit_lwt_unix.cmxa /home/coma/.opam/default/lib/re/re.cmxa /home/coma/.opam/default/lib/uri-sexp/uri_sexp.cmxa /home/coma/.opam/default/lib/base64/base64.cmxa /home/coma/.opam/default/lib/cohttp/cohttp.cmxa /home/coma/.opam/default/lib/cohttp-lwt/cohttp_lwt.cmxa /home/coma/.opam/default/lib/logs/logs_fmt.cmxa /home/coma/.opam/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmxa /home/coma/.opam/default/lib/base/base_internalhash_types/base_internalhash_types.cmxa -I /home/coma/.opam/default/lib/base/base_internalhash_types /home/coma/.opam/default/lib/base/caml/caml.cmxa /home/coma/.opam/default/lib/base/shadow_stdlib/shadow_stdlib.cmxa /home/coma/.opam/default/lib/base/base.cmxa -I /home/coma/.opam/default/lib/base /home/coma/.opam/default/lib/ppx_compare/runtime-lib/ppx_compare_lib.cmxa /home/coma/.opam/default/lib/ppx_enumerate/runtime-lib/ppx_enumerate_lib.cmxa /home/coma/.opam/default/lib/ppx_hash/runtime-lib/ppx_hash_lib.cmxa /home/coma/.opam/default/lib/ppx_here/runtime-lib/ppx_here_lib.cmxa /home/coma/.opam/default/lib/ppx_assert/runtime-lib/ppx_assert_lib.cmxa /home/coma/.opam/default/lib/ppx_bench/runtime-lib/ppx_bench_lib.cmxa /home/coma/.opam/default/lib/base/md5/md5_lib.cmxa /home/coma/.opam/default/lib/fieldslib/fieldslib.cmxa /home/coma/.opam/default/lib/variantslib/variantslib.cmxa /home/coma/.opam/default/lib/bin_prot/shape/bin_shape.cmxa /home/coma/.opam/default/lib/ppx_stable_witness/stable_witness/stable_witness.cmxa /home/coma/.opam/default/lib/bin_prot/bin_prot.cmxa -I /home/coma/.opam/default/lib/bin_prot /home/coma/.opam/default/lib/ppx_inline_test/config/inline_test_config.cmxa /home/coma/.opam/default/lib/jane-street-headers/jane_street_headers.cmxa /home/coma/.opam/default/lib/time_now/time_now.cmxa -I /home/coma/.opam/default/lib/time_now /home/coma/.opam/default/lib/ppx_inline_test/runtime-lib/ppx_inline_test_lib.cmxa /home/coma/.opam/default/lib/stdio/stdio.cmxa /home/coma/.opam/default/lib/ppx_module_timer/runtime/ppx_module_timer_runtime.cmxa /home/coma/.opam/default/lib/ppx_stable_witness/runtime/ppx_stable_witness_runtime.cmxa /home/coma/.opam/default/lib/typerep/typerep_lib.cmxa /home/coma/.opam/default/lib/ppx_expect/common/expect_test_common.cmxa /home/coma/.opam/default/lib/ppx_expect/config_types/expect_test_config_types.cmxa /home/coma/.opam/default/lib/ppx_expect/collector/expect_test_collector.cmxa -I /home/coma/.opam/default/lib/ppx_expect/collector /home/coma/.opam/default/lib/ppx_expect/config/expect_test_config.cmxa /home/coma/.opam/default/lib/ppx_log/types/ppx_log_types.cmxa /home/coma/.opam/default/lib/splittable_random/splittable_random.cmxa /home/coma/.opam/default/lib/base_quickcheck/base_quickcheck.cmxa /home/coma/.opam/default/lib/base_quickcheck/ppx_quickcheck/runtime/ppx_quickcheck_runtime.cmxa /home/coma/.opam/default/lib/int_repr/int_repr.cmxa /home/coma/.opam/default/lib/base_bigstring/base_bigstring.cmxa -I /home/coma/.opam/default/lib/base_bigstring /home/coma/.opam/default/lib/core/base_for_tests/base_for_tests.cmxa /home/coma/.opam/default/lib/core/filename_base/filename_base.cmxa /home/coma/.opam/default/lib/core/univ_map/univ_map.cmxa /home/coma/.opam/default/lib/core/command/command.cmxa /home/coma/.opam/default/lib/core/heap_block/heap_block.cmxa -I /home/coma/.opam/default/lib/core/heap_block /home/coma/.opam/default/lib/core/validate/validate.cmxa /home/coma/.opam/default/lib/core/core.cmxa -I /home/coma/.opam/default/lib/core /home/coma/.opam/default/lib/core_kernel/thread_pool_cpu_affinity/thread_pool_cpu_affinity.cmxa /home/coma/.opam/default/lib/core_kernel/tuple_pool/tuple_pool.cmxa /home/coma/.opam/default/lib/core_kernel/timing_wheel/timing_wheel.cmxa /home/coma/.opam/default/lib/async_kernel/config/async_kernel_config.cmxa /home/coma/.opam/default/lib/core_kernel/moption/moption.cmxa /home/coma/.opam/default/lib/core_kernel/pairing_heap/pairing_heap.cmxa /home/coma/.opam/default/lib/core_kernel/sexp_hidden_in_test/sexp_hidden_in_test.cmxa /home/coma/.opam/default/lib/core_kernel/uopt/uopt.cmxa /home/coma/.opam/default/lib/core_kernel/thread_safe_queue/thread_safe_queue.cmxa /home/coma/.opam/default/lib/async_kernel/async_kernel.cmxa /home/coma/.opam/default/lib/core_kernel/caml_threads/caml_threads.cmxa /home/coma/.opam/default/lib/core_unix/error_checking_mutex/error_checking_mutex.cmxa -I /home/coma/.opam/default/lib/core_unix/error_checking_mutex /home/coma/.opam/default/lib/core_kernel/flags/flags.cmxa /home/coma/.opam/default/lib/sexplib/unix/sexplib_unix.cmxa /home/coma/.opam/default/lib/core_kernel/caml_unix/caml_unix.cmxa /home/coma/.opam/default/lib/core_unix/signal_unix/signal_unix.cmxa -I /home/coma/.opam/default/lib/core_unix/signal_unix /home/coma/.opam/default/lib/spawn/spawn.cmxa -I /home/coma/.opam/default/lib/spawn /home/coma/.opam/default/lib/core_unix/core_unix.cmxa -I /home/coma/.opam/default/lib/core_unix /home/coma/.opam/default/lib/core_unix/ocaml_c_utils/ocaml_c_utils.cmxa -I /home/coma/.opam/default/lib/core_unix/ocaml_c_utils /home/coma/.opam/default/lib/core_unix/bigstring_unix/bigstring_unix.cmxa -I /home/coma/.opam/default/lib/core_unix/bigstring_unix /home/coma/.opam/default/lib/core_kernel/bounded_int_table/bounded_int_table.cmxa /home/coma/.opam/default/lib/async_kernel/eager_deferred/eager_deferred.cmxa /home/coma/.opam/default/lib/core_unix/sys_unix/sys_unix.cmxa -I /home/coma/.opam/default/lib/core_unix/sys_unix /home/coma/.opam/default/lib/core_unix/filename_unix/filename_unix.cmxa -I /home/coma/.opam/default/lib/core_unix/filename_unix /home/coma/.opam/default/lib/core_kernel/iobuf/iobuf.cmxa /home/coma/.opam/default/lib/core_unix/iobuf_unix/iobuf_unix.cmxa -I /home/coma/.opam/default/lib/core_unix/iobuf_unix /home/coma/.opam/default/lib/core_unix/core_thread/core_thread.cmxa -I /home/coma/.opam/default/lib/core_unix/core_thread /home/coma/.opam/default/lib/core_unix/nano_mutex/nano_mutex.cmxa /home/coma/.opam/default/lib/async_kernel/read_write_pair/read_write_pair.cmxa /home/coma/.opam/default/lib/core_unix/squeue/squeue.cmxa /home/coma/.opam/default/lib/timezone/timezone.cmxa /home/coma/.opam/default/lib/core_unix/time_float_unix/time_float_unix.cmxa /home/coma/.opam/default/lib/core_unix/time_ns_unix/time_ns_unix.cmxa /home/coma/.opam/default/lib/core_unix/linux_ext/linux_ext.cmxa -I /home/coma/.opam/default/lib/core_unix/linux_ext /home/coma/.opam/default/lib/async_unix/thread_safe_ivar/thread_safe_ivar.cmxa /home/coma/.opam/default/lib/async_unix/thread_pool/thread_pool.cmxa /home/coma/.opam/default/lib/ocaml_intrinsics/ocaml_intrinsics.cmxa -I /home/coma/.opam/default/lib/ocaml_intrinsics /home/coma/.opam/default/lib/core_unix/time_stamp_counter/time_stamp_counter.cmxa -I /home/coma/.opam/default/lib/core_unix/time_stamp_counter /home/coma/.opam/default/lib/core_kernel/uuid/uuid.cmxa /home/coma/.opam/default/lib/core_unix/uuid/uuid_unix.cmxa /home/coma/.opam/default/lib/async_unix/async_unix.cmxa -I /home/coma/.opam/default/lib/async_unix /home/coma/.opam/default/lib/async/async_command/async_command.cmxa /home/coma/.opam/default/lib/async/async_quickcheck/async_quickcheck.cmxa /home/coma/.opam/default/lib/core_kernel/bus/bus.cmxa /home/coma/.opam/default/lib/async_kernel/persistent_connection_kernel/persistent_connection_kernel.cmxa /home/coma/.opam/default/lib/protocol_version_header/protocol_version_header.cmxa /home/coma/.opam/default/lib/async_rpc_kernel/async_rpc_kernel.cmxa /home/coma/.opam/default/lib/async/async_rpc/async_rpc.cmxa -I /home/coma/.opam/default/lib/async/async_rpc /home/coma/.opam/default/lib/async/async.cmxa /home/coma/.opam/default/lib/conduit-async/conduit_async.cmxa /home/coma/.opam/default/lib/cohttp-async/cohttp_async.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
