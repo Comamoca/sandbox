@@ -1,16 +1,10 @@
-mod async_ls;
-use std::process::Command;
+use tokio::process::Command;
 
-#[tokio::main]
-async fn main() {
-    ls();
-    async_ls::async_ls().await;
-}
-
-fn ls() {
+pub async fn async_ls() {
     let output = Command::new("ls")
         .args(&["-l", "-a"])
         .output()
+        .await
         .expect("failed to start `ls`");
 
     println!("{}", String::from_utf8_lossy(&output.stdout));
