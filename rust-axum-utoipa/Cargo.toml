@@ -1,0 +1,15 @@
+[package]
+name = "rust-axum-utoipa"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.20"
+serde = "1.0.188"
+sled = "0.34.7"
+tokio = { version = "1.32.0", features = ["full"] }
+utoipa = { version = "3.5.0", features = ["axum_extras"] }
+utoipa-swagger-ui = { version = "3.1.5", features = ["axum"] }
+uuid = { version = "1.4.1", features = ["v4"] }
