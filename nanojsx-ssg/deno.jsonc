@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "nano-jsx": "https://esm.sh/nano-jsx@0.1.0/"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
+    "jsx": "react-jsx",
+    // "jsxFactory": "h",
+    // "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "https://esm.sh/nano-jsx@0.1.0/esm"
+  }
+}
