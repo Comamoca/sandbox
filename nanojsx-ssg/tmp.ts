@@ -1,41 +1,19 @@
-import {
-  basename,
-  dirname,
-  extname,
-  join,
-  relative,
-} from "https://deno.land/std@0.203.0/path/mod.ts";
+import { walk } from "https://deno.land/std@0.203.0/fs/walk.ts";
+import { collect } from "./collect.ts";
+import { create_post } from "./markdown.ts";
+import { Post } from "./post.ts";
+import { WalkEntry } from "https://deno.land/std@0.204.0/fs/mod.ts";
+import { globToRegExp } from "https://deno.land/std@0.204.0/path/mod.ts";
 
-const project_root = Deno.cwd();
-const target =
-  "/home/coma/ghq/github.com/Comamoca/sandbox/nanojsx-ssg/index.tsx";
+async function md_files(): Promise<Promise<Post>[]> {
+  const md_entries = await collect(
+    ["**/blog/*.md"].map((glob) => globToRegExp(glob)),
+  );
 
-const blog =
-  "/home/coma/ghq/github.com/Comamoca/sandbox/nanojsx-ssg/blog/index.tsx";
+  const md = md_entries.map(async (md: WalkEntry) => await create_post(md));
 
-const outdir = "./_dist";
+  return md;
+}
 
-console.log(project_root);
-console.log(target);
-
-console.log(
-  relative(
-    project_root,
-    blog,
-  ),
-);
-
-console.log(join(
-  outdir,
-  relative(
-    project_root,
-    target,
-  ),
-));
-console.log(join(
-  outdir,
-  relative(
-    project_root,
-    blog,
-  ),
-));
+const result = await Promise.all(await md_files());
+console.log(result);

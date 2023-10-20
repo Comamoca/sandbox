@@ -11,7 +11,7 @@ export async function create_post(md_entry: WalkEntry): Promise<Post> {
   return {
     attr: md_info.attrs,
     body: md_info.body,
-    entry: entry,
+    entry: md_entry,
   };
 }
 

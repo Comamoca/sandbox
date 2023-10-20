@@ -1,6 +1,7 @@
 ---
 title: "最初の投稿"
 tag: ["deno", "nanojsx", "twind", "ssg"]
+description: "ブログを作った話"
 ---
 
 ## DenoでSSGを作ってみた
