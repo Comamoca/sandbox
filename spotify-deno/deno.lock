@@ -1,0 +1,199 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:spotify-api.js": "npm:spotify-api.js@9.2.5"
+    },
+    "npm": {
+      "asynckit@0.4.0": {
+        "integrity": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==",
+        "dependencies": {}
+      },
+      "axios@1.4.0": {
+        "integrity": "sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==",
+        "dependencies": {
+          "follow-redirects": "follow-redirects@1.15.2",
+          "form-data": "form-data@4.0.0",
+          "proxy-from-env": "proxy-from-env@1.1.0"
+        }
+      },
+      "combined-stream@1.0.8": {
+        "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+        "dependencies": {
+          "delayed-stream": "delayed-stream@1.0.0"
+        }
+      },
+      "delayed-stream@1.0.0": {
+        "integrity": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==",
+        "dependencies": {}
+      },
+      "follow-redirects@1.15.2": {
+        "integrity": "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==",
+        "dependencies": {}
+      },
+      "form-data@4.0.0": {
+        "integrity": "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==",
+        "dependencies": {
+          "asynckit": "asynckit@0.4.0",
+          "combined-stream": "combined-stream@1.0.8",
+          "mime-types": "mime-types@2.1.35"
+        }
+      },
+      "mime-db@1.52.0": {
+        "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==",
+        "dependencies": {}
+      },
+      "mime-types@2.1.35": {
+        "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+        "dependencies": {
+          "mime-db": "mime-db@1.52.0"
+        }
+      },
+      "proxy-from-env@1.1.0": {
+        "integrity": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==",
+        "dependencies": {}
+      },
+      "spotify-api.js@9.2.5": {
+        "integrity": "sha512-Q+196XA6zUDvqQ5mMNgPN4l5j8vDF18DVqlwFnn0TX0MqLfOhrKfoeMR5OYNhpa99LVjEvwNF/WPaTAy0MqBJQ==",
+        "dependencies": {
+          "axios": "axios@1.4.0",
+          "spotify-types": "spotify-types@1.0.7"
+        }
+      },
+      "spotify-types@1.0.7": {
+        "integrity": "sha512-X2n0MYNUpgakGDU7h/vzTvqVJh2f8kAWE9SG5TkJtf3lJcorndK24/8/6+D7Uww8tqUD1VPHg5Lqv4usdVJUvg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "redirects": {
+    "https://esm.sh/ky": "https://esm.sh/ky@0.33.2",
+    "https://github.com/hum/spotify/raw/main/mod.ts": "https://raw.githubusercontent.com/hum/spotify/main/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.150.0/media_types/_util.ts": "ce9b4fc4ba1c447dafab619055e20fd88236ca6bdd7834a21f98bd193c3fbfa1",
+    "https://deno.land/std@0.150.0/media_types/mod.ts": "2d4b6f32a087029272dc59e0a55ae3cc4d1b27b794ccf528e94b1925795b3118",
+    "https://deno.land/std@0.150.0/media_types/vendor/mime-db.v1.52.0.ts": "724cee25fa40f1a52d3937d6b4fbbfdd7791ff55e1b7ac08d9319d5632c7f5af",
+    "https://deno.land/std@0.170.0/node/internal_binding/_winerror.ts": "8811d4be66f918c165370b619259c1f35e8c3e458b8539db64c704fbde0a7cd2",
+    "https://deno.land/std@0.204.0/encoding/_util.ts": "f368920189c4fe6592ab2e93bd7ded8f3065b84f95cd3e036a4a10a75649dcba",
+    "https://deno.land/std@0.204.0/encoding/base64.ts": "cc03110d6518170aeaa68ec97f89c6d6e2276294b30807e7332591d7ce2e4b72",
+    "https://deno.land/std@0.99.0/encoding/base64.ts": "eecae390f1f1d1cae6f6c6d732ede5276bf4b9cd29b1d281678c054dc5cc009e",
+    "https://deno.land/std@0.99.0/encoding/hex.ts": "f952e0727bddb3b2fd2e6889d104eacbd62e92091f540ebd6459317a61932d9b",
+    "https://deno.land/x/crypto_random_string@1.1.0/constants.ts": "834f718bc3e7bba4d19a28cbc9d289309c6c3db5d6486c300d509fffa42a75d6",
+    "https://deno.land/x/crypto_random_string@1.1.0/cryptoRandomString.ts": "301046e469dd9228171262b8c1ae31aa44ae1a7595ba0e2dbbc464819ad9aa43",
+    "https://deno.land/x/crypto_random_string@1.1.0/deps.ts": "742c4c04df39a5fcc8939d3a2c9052229c2e2d61c2d7af5317fcbee5dd93c2ff",
+    "https://deno.land/x/crypto_random_string@1.1.0/mod.ts": "f5513407c5efa5d4d25a61965ad5a3cd62d0f7d57246fe8db4b8d2ef2a630380",
+    "https://deno.land/x/hono@v3.3.0/client/client.ts": "7a819af2aa9aabc746add4d01715fa37f83676fdf1b63fba1bbcd655b2d066a5",
+    "https://deno.land/x/hono@v3.3.0/client/index.ts": "3ff4cf246f3543f827a85a2c84d66a025ac350ee927613629bda47e854bfb7ba",
+    "https://deno.land/x/hono@v3.3.0/client/utils.ts": "053273c002963b549d38268a1b423ac8ca211a8028bdab1ed0b781a62aa5e661",
+    "https://deno.land/x/hono@v3.3.0/compose.ts": "e55ed7be2134f363ff3c8e8e2f520ff682c6a11a47d7189100ed69704ce10b9e",
+    "https://deno.land/x/hono@v3.3.0/context.ts": "a9d2dba3528df1a804d78630f867a8aaee2ebc8b498c5c781eeb057539dedb20",
+    "https://deno.land/x/hono@v3.3.0/hono-base.ts": "4b5ca6acc83cb9cdbff57ed564628b07fc0f957a983310002f609ed79aaa80e5",
+    "https://deno.land/x/hono@v3.3.0/hono.ts": "c185fae30dc3aa9966b0f3e8599f81314ba5e8621b907d27cffb77414a1c0908",
+    "https://deno.land/x/hono@v3.3.0/http-exception.ts": "6071df078b5f76d279684d52fe82a590f447a64ffe1b75eb5064d0c8a8d2d676",
+    "https://deno.land/x/hono@v3.3.0/mod.ts": "be5c09896830494225a12488e3e086b331b9c8829f66cc529cb8636a0c15f6fe",
+    "https://deno.land/x/hono@v3.3.0/request.ts": "abbfbd63516c7ee60445b85a5ae8d45a8c9b4dc1a536af5cf84ff73b742ebda4",
+    "https://deno.land/x/hono@v3.3.0/router.ts": "d03e2a9e862c898e8555b451ba80c65b1f39d487230815229e1f046dbd8546cb",
+    "https://deno.land/x/hono@v3.3.0/router/linear-router/index.ts": "8a2a7144c50b1f4a92d9ee99c2c396716af144c868e10608255f969695efccd0",
+    "https://deno.land/x/hono@v3.3.0/router/linear-router/router.ts": "90d4afc052b72f53dafbcf97fd32f24299b985f8a35dbdc70b28048201b3dcbc",
+    "https://deno.land/x/hono@v3.3.0/router/pattern-router/index.ts": "304a66c50e243872037ed41c7dd79ed0c89d815e17e172e7ad7cdc4bc07d3383",
+    "https://deno.land/x/hono@v3.3.0/router/pattern-router/router.ts": "38ffe40056f3aa7ecf441711d82af2d0357aae6c2fd168f534427579e89439f4",
+    "https://deno.land/x/hono@v3.3.0/router/reg-exp-router/index.ts": "52755829213941756159b7a963097bafde5cc4fc22b13b1c7c9184dc0512d1db",
+    "https://deno.land/x/hono@v3.3.0/router/reg-exp-router/node.ts": "8006b5bccb83d9fc98e0562a5545f6dd0be639ce445b089a6171c9c617aa8693",
+    "https://deno.land/x/hono@v3.3.0/router/reg-exp-router/router.ts": "aeddd88e16a7ec3cf088a13ee952cfcb3319f97559767253e1a600f72fc70f27",
+    "https://deno.land/x/hono@v3.3.0/router/reg-exp-router/trie.ts": "567493b301c44174f0895aedb8d055bbecf88f8a25626fa8ca61333bbd0c882c",
+    "https://deno.land/x/hono@v3.3.0/router/smart-router/index.ts": "74f9b4fe15ea535900f2b9b048581915f12fe94e531dd2b0032f5610e61c3bef",
+    "https://deno.land/x/hono@v3.3.0/router/smart-router/router.ts": "38209165dadea4182b42807a0a6c84a9258532a07ebf87262dc2b5b09d25a2a2",
+    "https://deno.land/x/hono@v3.3.0/router/trie-router/index.ts": "3eb75e7f71ba81801631b30de6b1f5cefb2c7239c03797e2b2cbab5085911b41",
+    "https://deno.land/x/hono@v3.3.0/router/trie-router/node.ts": "3e27c0ff9b1d677c4ab1fbf0895e81c8e3ba277c6c2ccbc68a98185b32040c95",
+    "https://deno.land/x/hono@v3.3.0/router/trie-router/router.ts": "ad0b3fdabc33abd11a9f5819734aec743602a743cfc9f90ddad73787cd5e7727",
+    "https://deno.land/x/hono@v3.3.0/types.ts": "d9733cf808ae9828fb12b62ff4decc23992da8f2050294a16e4af6d90db302f3",
+    "https://deno.land/x/hono@v3.3.0/utils/body.ts": "67627aaac6ea8d3d2f2ffcb0aabccfe0c854ee11eaecd36dfcc2f012005337f7",
+    "https://deno.land/x/hono@v3.3.0/utils/cookie.ts": "ff2f948c27fb8867fc990b1b6b182dfbe4c263c60a94cd33aefa77af5cdb1655",
+    "https://deno.land/x/hono@v3.3.0/utils/url.ts": "ad1c84749c1d8fc9b069a074003855b52c04bd56b64ac731a0abc276dfe90dcc",
+    "https://deno.land/x/hono@v3.3.0/validator/index.ts": "6c986e8b91dcf857ecc8164a506ae8eea8665792a4ff7215471df669c632ae7c",
+    "https://deno.land/x/hono@v3.3.0/validator/validator.ts": "e52183ddf8cefc3cfe2788802fe6ce766df8ac904df485107b01cbcca167dbad",
+    "https://deno.land/x/hono@v3.8.2/client/client.ts": "ff340f58041203879972dd368b011ed130c66914f789826610869a90603406bf",
+    "https://deno.land/x/hono@v3.8.2/client/index.ts": "3ff4cf246f3543f827a85a2c84d66a025ac350ee927613629bda47e854bfb7ba",
+    "https://deno.land/x/hono@v3.8.2/client/utils.ts": "053273c002963b549d38268a1b423ac8ca211a8028bdab1ed0b781a62aa5e661",
+    "https://deno.land/x/hono@v3.8.2/compose.ts": "501c8ada9d9b0fb375e3c9954ce7c4922cf562bfec8e80744bac47020754034d",
+    "https://deno.land/x/hono@v3.8.2/context.ts": "52a63852cac91e03a9494c615cadecb820b9510a7061e16d8afc3fab932e1de1",
+    "https://deno.land/x/hono@v3.8.2/helper/cookie/index.ts": "55ccd20bbd8d9a8bb2ecd998e90845c1d306c19027f54b3d1b89a5be35968b80",
+    "https://deno.land/x/hono@v3.8.2/hono-base.ts": "998ec910cbe0353407e95b93b7722fa1e39c23a06aa35552ab03441380fd4579",
+    "https://deno.land/x/hono@v3.8.2/hono.ts": "2cc4c292e541463a4d6f83edbcea58048d203e9564ae62ec430a3d466b49a865",
+    "https://deno.land/x/hono@v3.8.2/http-exception.ts": "6071df078b5f76d279684d52fe82a590f447a64ffe1b75eb5064d0c8a8d2d676",
+    "https://deno.land/x/hono@v3.8.2/mod.ts": "90114a97be9111b348129ad0143e764a64921f60dd03b8f3da529db98a0d3a82",
+    "https://deno.land/x/hono@v3.8.2/request.ts": "52330303dd7a3bf4f580fde0463ba608bc4c88a8b7b5edd7c1327064c7cf65ce",
+    "https://deno.land/x/hono@v3.8.2/router.ts": "39d573f48baee429810cd583c931dd44274273c30804d538c86967d310ea4ab5",
+    "https://deno.land/x/hono@v3.8.2/router/linear-router/index.ts": "8a2a7144c50b1f4a92d9ee99c2c396716af144c868e10608255f969695efccd0",
+    "https://deno.land/x/hono@v3.8.2/router/linear-router/router.ts": "bc63e8b5bc1dabc815306d50bebd1bb5877ffa3936ba2ad7550d093c95ee6bd1",
+    "https://deno.land/x/hono@v3.8.2/router/pattern-router/index.ts": "304a66c50e243872037ed41c7dd79ed0c89d815e17e172e7ad7cdc4bc07d3383",
+    "https://deno.land/x/hono@v3.8.2/router/pattern-router/router.ts": "a9a5a2a182cce8c3ae82139892cc0502be7dd8f579f31e76d0302b19b338e548",
+    "https://deno.land/x/hono@v3.8.2/router/reg-exp-router/index.ts": "52755829213941756159b7a963097bafde5cc4fc22b13b1c7c9184dc0512d1db",
+    "https://deno.land/x/hono@v3.8.2/router/reg-exp-router/node.ts": "5b3fb80411db04c65df066e69fedb2c8c0844753c2633d703336de84d569252c",
+    "https://deno.land/x/hono@v3.8.2/router/reg-exp-router/router.ts": "fbe8917aa24fe25d0208bfa82ce7f49ba0507f9ae158d4d0c177f6a061b0a561",
+    "https://deno.land/x/hono@v3.8.2/router/reg-exp-router/trie.ts": "852ce7207e6701e47fa30889a0d2b8bfcd56d8862c97e7bc9831e0a64bd8835f",
+    "https://deno.land/x/hono@v3.8.2/router/smart-router/index.ts": "74f9b4fe15ea535900f2b9b048581915f12fe94e531dd2b0032f5610e61c3bef",
+    "https://deno.land/x/hono@v3.8.2/router/smart-router/router.ts": "71979c06b32b093960a6e8efc4c185e558f280bff18846b8b1cdc757ade6ff99",
+    "https://deno.land/x/hono@v3.8.2/router/trie-router/index.ts": "3eb75e7f71ba81801631b30de6b1f5cefb2c7239c03797e2b2cbab5085911b41",
+    "https://deno.land/x/hono@v3.8.2/router/trie-router/node.ts": "3af15fa9c9994a8664a2b7a7c11233504b5bb9d4fcf7bb34cf30d7199052c39f",
+    "https://deno.land/x/hono@v3.8.2/router/trie-router/router.ts": "54ced78d35676302c8fcdda4204f7bdf5a7cc907fbf9967c75674b1e394f830d",
+    "https://deno.land/x/hono@v3.8.2/utils/body.ts": "7a16a6656331a96bcae57642f8d5e3912bd361cbbcc2c0d2157ecc3f218f7a92",
+    "https://deno.land/x/hono@v3.8.2/utils/buffer.ts": "9066a973e64498cb262c7e932f47eed525a51677b17f90893862b7279dc0773e",
+    "https://deno.land/x/hono@v3.8.2/utils/cookie.ts": "19920ba6756944aae1ad8585c3ddeaa9df479733f59d05359db096f7361e5e4b",
+    "https://deno.land/x/hono@v3.8.2/utils/crypto.ts": "bda0e141bbe46d3a4a20f8fbcb6380d473b617123d9fdfa93e4499410b537acc",
+    "https://deno.land/x/hono@v3.8.2/utils/stream.ts": "1789dcc73c5b0ede28f83d7d34e47ae432c20e680907cb3275a9c9187f293983",
+    "https://deno.land/x/hono@v3.8.2/utils/url.ts": "5fc3307ef3cb2e6f34ec2a03e3d7f2126c6a9f5f0eab677222df3f0e40bd7567",
+    "https://deno.land/x/hono@v3.8.2/validator/index.ts": "6c986e8b91dcf857ecc8164a506ae8eea8665792a4ff7215471df669c632ae7c",
+    "https://deno.land/x/hono@v3.8.2/validator/validator.ts": "afa5e52495e0996fbba61996736fab5c486590d72d376f809e9f9ff4e0c463e9",
+    "https://deno.land/x/xhr@0.3.0/mod.ts": "094aacd627fd9635cd942053bf8032b5223b909858fa9dc8ffa583752ff63b20",
+    "https://esm.sh/ky@0.33.2": "0f1af108555ec94b4334fc24d54158e0fb640da16497a2abff0115dd633f8abc",
+    "https://esm.sh/spotify-api.js@9.2.5": "7b03ec18391398fbca97b108e24144fbc982906645185f77f73e7a0ef75daeec",
+    "https://esm.sh/v102/fresh@0.5.2/deno/fresh.js": "744cadb08eee0196e9d7361e573730525d2420ee0984607c6c7022a092580c9d",
+    "https://esm.sh/v106/ky@0.33.2/deno/ky.js": "c24d4e80cc124c5cd9873e6ea806295f829ce3909b67784240c05e20d592e1db",
+    "https://esm.sh/v133/axios@1.5.1/denonext/axios.mjs": "f6ffcd5e180dd84dcb8820639e04f233f4fd3ecd84fe5b7b62f482766264c28c",
+    "https://esm.sh/v133/spotify-api.js@9.2.5/denonext/spotify-api.mjs": "05129281d0ea1bba5ea1756d6e3cfa3fffe62d6a6ee8e591a053eed58f521cbf",
+    "https://raw.githubusercontent.com/hum/spotify/main/client.ts": "e6bc2596ec393678ad81a0464bd3322ac93d7e2d58b5e28fc486039844a7055c",
+    "https://raw.githubusercontent.com/hum/spotify/main/endpoints/endpoints.ts": "6daa6ebb0c0b1b36ffe48a04d69e03f52718ee1c21d2ceaa23c0a956f6fbaf55",
+    "https://raw.githubusercontent.com/hum/spotify/main/handlers/caller.ts": "893ae7bfaabf2443e81abb8f4fbe0232dd2d90c02c0f8bb54f403aa1730d9b05",
+    "https://raw.githubusercontent.com/hum/spotify/main/mod.ts": "63a3efd86c0d57653158aafe2d3199603ddb918acf3562f5c7e03c556520d424",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/album.ts": "cac19697d4e2e096986ebd4c5caf2c4aabfbe5ed66ea86a6d27ffa30c059e67c",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/artist.ts": "7069877d44a3c685a783dee4b9b6819fb7ed5a6d5ec719e67e132820bdf08c1a",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/browse.ts": "5bab81615b82a99a02c70a9309129828a1bdea87bce8fc1cf5fa77589cb9914e",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/episode.ts": "9180d4c058dca5df5ac55efb9794c03cf2900e01dade42dafc35dd5e4cad8d8e",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/opts.ts": "2545a240d597a168dc7d88174f740b776b57283eba82d730183edd8a56fa3247",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/player.ts": "a1b68fca8dc9d54c7b5b2b4011f52dcf4e00090ae757dda46ed2df772abc216a",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/playlist.ts": "719e19dbb7a285c76d2390f1c820cf19aeea61abf4bc89958ea108257e21e38d",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/search.ts": "0f0f6a179adf46c648b99d1ebe8da4b5f2035e3163f8db2880498f0f07273d72",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/show.ts": "0c25a5d42f6e68f0ce0dd40f5e6bb909d264721d03129754937f7950305a42db",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/track.ts": "cee1366f63083b3c6f08ca355eb05144f48b7ca4ff3535af21e2ce16f480722f",
+    "https://raw.githubusercontent.com/hum/spotify/main/opts/user.ts": "786d073ccb22e4f9c7168000b0c5e853064ee44a7b78ad59cd3ef6a31c0f0f30",
+    "https://raw.githubusercontent.com/hum/spotify/main/structures/structs.ts": "811e643d00e5ceb9a9d144888f5c72e02d9cb648038524fb9123f1553fffa1a7",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/album.ts": "23d4cf02e6747ccd4ce13be416772a52bba1eb623ad74a21ce6077d2f7ee7aaf",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/artist.ts": "9613748f92ea9039dd0d908a685b5a715a454ab126d2ca025b883b9fdbcec09b",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/audioFeatures.ts": "cb6a430e89187a6965082e513ca5a00be70a0d97afa061618c8a84b9b10932b4",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/category.ts": "61a76e466b1f42cf87539ee1a60abc7320b6c5680e20a3071d7615e4d5afc494",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/device.ts": "b1dd9256add69ec29657465583d4b2d72d668748f7406502510f5698d3dd51a8",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/episode.ts": "d6cd7461dfe7b3eb6779c0f8214c71376645294e9bc44d41987f60767f5ae48f",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playHistory.ts": "ed9e255f9e63743a6ccefb469023fe090ccea8e1a93839d4dd23da4bdd7df790",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playback.ts": "1d0930b25508ea593af410030a9a403c69b8a43f394602578562e1405e539ee1",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playbackContext.ts": "b8b0f1fb507bfcad114bdd7641f5d4f9f86621c4d4c1a94125504488e262c5e6",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/player.ts": "5f6a88241e268df36aef13eaa9f37146c12ae97c6f61eeebe0b7144f7f28f2a6",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playerContext.ts": "0fe9a4ecd20c93c24a87924b33c2665fff60d11b66ef1b5df244c4ebd9c3dbfc",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playlist.ts": "8f81df549a002f700fc4277be8116de94bbd8513dd13c365c437871008499c01",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/playlistTrack.ts": "f935a863b66683c4fb122c2773267c7808d30b5435cc3dcece6e2e23f4ddb1c2",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/privateUser.ts": "ca7e1d82ac40ec8318457e417aa16100637b0a811a3bbc3f84412019a86c5cb9",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/publicUser.ts": "83e2979052665c8bbf3ba05d50aeeeea475703653263dabfaabd8994717d4468",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/show.ts": "6b4a4a21427fccffa98cfd3bd7616be2421911962c6f1af8b39525547d972e71",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedAlbum.ts": "5001c3bc74824f45d65ed80fc1793818ec9f95a65a58546ad2c1d4ae31595bd9",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedArtist.ts": "03c751543bae43dc065a31914d47f9967703902410c67b4df7c3a2aeb617e581",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedEpisode.ts": "ef44f69c1e40bbf21fdfe7b535cba82ab933d42163642a25abe757e6c62860cc",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedPlaylist.ts": "1f5f4feb358947b69e1c634ef5df12081cf226abb3e7c79482b03d2f00bee08c",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedShow.ts": "8957657737a270e960db60ba7551daa29e6b039683cde62eba563c772f73e20e",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/simplifiedTrack.ts": "4442fd4b8788eeefd2079f0a453eb460c3431731ea5f24e5d27fc30cf4902289",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/track.ts": "1a892bf0d7333f4a794211b4cc794068e5bf750feb1a20c8971c4265162e8122",
+    "https://raw.githubusercontent.com/hum/spotify/main/types/types.ts": "b191ae247c0cbe224918c1d47aa42c13924df2f330ce710f73e69e23b60c53f6",
+    "https://raw.githubusercontent.com/hum/spotify/main/utils/utils.ts": "05fb6b0553282a4931dcc70ff70897eb1e3bf740c166b7c047137cf14ed42b9a",
+    "https://sdk.scdn.co/spotify-player.js": "fb061fcbd70c346f69d0f643be951af9e8770074d1ab62c777816cc5b0b37e06"
+  }
+}
