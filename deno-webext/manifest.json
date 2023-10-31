@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "deno-ext-example",
+  "version": "1.0",
+
+  "description": "deno web extention example.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/beasts-48.png",
+    "default_title": "deno-ext-example",
+    "default_popup": "dist/index.html"
+  }
+}
