@@ -27,5 +27,4 @@ local function setup()
 end
 local M = {}
 M["setup"] = setup
-M["calc"] = calc
 return M

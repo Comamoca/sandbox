@@ -18,9 +18,9 @@
 )
 
 (fn setup []
-  (let [opt {}] opt
+  (let [opt {}]
     (tset opt "nargs" 1)
-    opt
+    
 
     (vim.api.nvim_create_user_command "Calc" calc opt)
     ":ok"
@@ -30,6 +30,5 @@
 
 (let [M {}]
   (tset M "setup" setup)
-  (tset M "calc" calc)
   M
 )
