@@ -1,0 +1,6 @@
+(executable
+ (public_name ocaml_dream)
+ (name main)
+ (libraries ocaml_dream dream )
+ (preprocess (pps lwt_ppx))
+ )
