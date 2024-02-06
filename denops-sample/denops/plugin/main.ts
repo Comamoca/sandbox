@@ -1,8 +1,8 @@
-import { Denops, ensure, execute, is } from "../../mod.ts";
+import { Denops, ensure, execute, is } from "../../deps.ts";
 
 export async function main(denops: Denops): Promise<void> {
   // ここにプラグインの処理を記載する
-  // console.log("Hello Denops!");
+  console.log("Hello Denops!");
 
   denops.dispatcher = {
     async echo(text: unknown): Promise<unknown> {
