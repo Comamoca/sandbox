@@ -10,5 +10,5 @@ iex -S mix
 # run test
 mix test
 
-iex> ElixirRustler.add 1, 2
+iex> ElixirRustler.RustModule.add 1, 2
 ```
