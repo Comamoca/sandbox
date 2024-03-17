@@ -1,7 +1,7 @@
 defmodule ExGleamWithFloki.MixProject do
   use Mix.Project
 
-  @app :ex_gleam_with_floki
+  @app :ex_mix_gleam_with_floki
 
   def project do
     [

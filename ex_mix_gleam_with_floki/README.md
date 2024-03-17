@@ -1,4 +1,4 @@
-# ex_gleam_with_floki
+# ex_mix_gleam_with_floki
 
 Gleam with [Floki](https://hexdocs.pm/floki/readme.html) example.
 
