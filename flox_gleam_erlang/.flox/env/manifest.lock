@@ -1,0 +1,156 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "elixir": {
+        "pkg-path": "elixir"
+      },
+      "erlang": {
+        "pkg-path": "erlang"
+      },
+      "gleam": {
+        "pkg-path": "gleam"
+      }
+    },
+    "options": {
+      "systems": [
+        "x86_64-linux"
+      ]
+    },
+    "profile": {},
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "x86_64-linux": {
+      "elixir": {
+        "attr-path": [
+          "legacyPackages",
+          "x86_64-linux",
+          "elixir"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+          "license": "EPL-1.0",
+          "pname": "elixir",
+          "unfree": false,
+          "version": "1.15.7"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711048004,
+            "narHash": "sha256-fI9nyTXbQsZYNre67OXz0nNgcXXlNfN470WJv8Qw3eE=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e",
+            "type": "github"
+          },
+          "fingerprint": "237b975ac40b0b98a89b5d4589488aa8d97f8123977c68bca6c087517a3ecbfd",
+          "url": "github:NixOS/nixpkgs/8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e"
+        },
+        "priority": 5
+      },
+      "erlang": {
+        "attr-path": [
+          "legacyPackages",
+          "x86_64-linux",
+          "erlang"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Programming language used for massively scalable soft real-time systems",
+          "license": "Apache-2.0",
+          "pname": "erlang",
+          "unfree": false,
+          "version": "25.3.2.7"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711048004,
+            "narHash": "sha256-fI9nyTXbQsZYNre67OXz0nNgcXXlNfN470WJv8Qw3eE=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e",
+            "type": "github"
+          },
+          "fingerprint": "237b975ac40b0b98a89b5d4589488aa8d97f8123977c68bca6c087517a3ecbfd",
+          "url": "github:NixOS/nixpkgs/8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e"
+        },
+        "priority": 5
+      },
+      "gleam": {
+        "attr-path": [
+          "legacyPackages",
+          "x86_64-linux",
+          "gleam"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A statically typed language for the Erlang VM",
+          "license": "Apache-2.0",
+          "pname": "gleam",
+          "unfree": false,
+          "version": "1.0.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711048004,
+            "narHash": "sha256-fI9nyTXbQsZYNre67OXz0nNgcXXlNfN470WJv8Qw3eE=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e",
+            "type": "github"
+          },
+          "fingerprint": "237b975ac40b0b98a89b5d4589488aa8d97f8123977c68bca6c087517a3ecbfd",
+          "url": "github:NixOS/nixpkgs/8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1711048004,
+          "narHash": "sha256-fI9nyTXbQsZYNre67OXz0nNgcXXlNfN470WJv8Qw3eE=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "8c2a8f922ff4eb12bc2d6d1486f247ee3f02279e",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
