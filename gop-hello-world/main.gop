@@ -1,0 +1,16 @@
+func fizzbuzz(n int) {
+	if n%15 == 0 {
+		echo "FizzBuzz"
+	} else if n%3 == 0 {
+		echo "Fizz"
+	} else if n%3 == 0 {
+		echo "Buzz"
+	} else {
+		echo n
+	}
+}
+
+for n <- :30 {
+	fizzbuzz n
+}
+
