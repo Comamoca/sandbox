@@ -1,0 +1,22 @@
+[tools]
+haxe = '4.3.4'
+bun = 'latest'
+python = 'latest'
+
+[tasks.js]
+run = [
+"haxe js.hxml",
+"bun run ./bin/js/main.js"
+]
+
+[tasks.cpp]
+run = [
+"haxe cpp.hxml",
+"./bin/cpp/main.cpp/Main"
+]
+
+[tasks.py]
+run = [
+"haxe py.hxml",
+"python ./bin/py/main.py"
+]
