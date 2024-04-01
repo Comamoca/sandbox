@@ -3,8 +3,6 @@ import Sys;
 
 class Main {
   static function main() {
-    trace("Haxe is great!");
-
     for (n in 0...30) Sys.println(fizzbuzz(n));
 
   }
