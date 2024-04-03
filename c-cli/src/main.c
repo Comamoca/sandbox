@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <string.h>
-#include "lib.h"
+#include "lib/lib.h"
 
 int main(int argc, char** argv[]) {
 	// Call functin in other file.
 	int result = add(1, 2);
-	printf("result: %i\n", result);
-	printf("argc: %i\n", argc);
+
+	printf("1 + 2 = %d\n", result);
+	printf("argc: %d\n", argc);
 
 	// Connect string
 	char buf[100];
