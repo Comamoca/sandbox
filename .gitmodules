@@ -7,3 +7,12 @@
 [submodule "singlua/lua"]
 	path = singlua/lua
 	url = https://github.com/lua/lua
+[submodule "c-janet-embed/janet"]
+	path = c-janet-embed/janet
+	url = https://github.com/janet-lang/janet
+[submodule "zig-janet-embed/janet"]
+	path = zig-janet-embed/janet
+	url = https://github.com/janet-lang/janet
+[submodule "c-fzy/fzy"]
+	path = c-fzy/fzy
+	url = https://github.com/jhawthorn/fzy
