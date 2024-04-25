@@ -1,5 +1,0 @@
-scripts:
-  dev:
-    cmd: packup index.html
-  build:
-    cmd: packup build index.html
