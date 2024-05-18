@@ -30,7 +30,7 @@ Task dependencies is below. under task depends on the top task.
 
 ### Run task
 
-> **Note**
+> [!NOTE]
 > Output `report.md` file in current directory when you run `deno task all` or `deno task report`.
 
 Use `deno task`
