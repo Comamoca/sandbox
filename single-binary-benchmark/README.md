@@ -20,8 +20,21 @@
 - [go](https://go.dev/)
 - [hyperfine](https://github.com/sharkdp/hyperfine)
 
+### Task dependencies
+
+Task dependencies is below. under task depends on the top task.
+
+- build 
+- benck 
+- report
+
+### Run task
+
+> **Note**
+> Output `report.md` file in current directory when you run `deno task all` or `deno task report`.
 
 Use `deno task`
+
 ```sh
 # run all task.
 deno task all 
