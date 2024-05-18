@@ -1,0 +1,8 @@
+{
+	"tasks" : {
+		"build" : "deno run -A script.ts build",
+		"bench" : "deno run -A script.ts bench",
+		"report" : "deno run -A script.ts report",
+		"all" : "deno run -A script.ts"
+	}
+}
