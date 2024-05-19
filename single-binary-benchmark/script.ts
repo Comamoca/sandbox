@@ -23,7 +23,7 @@ const bench = async () => {
   for await (const name of Object.keys(cmds)) {
     console.log("Take benckmark.");
     const hyprfine =
-      `hyperfine -w 5 --shell=none --export-markdown ./reports/report_${name}.md "./${name}/out_${name} 1 2"`;
+      `hyperfine -w 5 --shell=none --time-unit microsecond --export-markdown ./reports/report_${name}.md "./${name}/out_${name} 1 2"`;
 
     console.log(`Benck: ${hyprfine}`);
 
