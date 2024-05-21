@@ -4,6 +4,7 @@ const cmds = {
   "deno": "deno compile --output out_deno ./main.ts",
   "bun": "bun build ./main.ts --compile --outfile out_bun",
   "go": "go build",
+  "shell" : "cp ./main.sh ./out_shell && chmod +x ./out_shell",
 };
 
 // Build binary.
