@@ -1,6 +1,6 @@
 # ex_gleam_lustre_gleez
 
-![Demo image](./imgs/screenshot.png)
+<img alt="Demo image" width="300" src="./imgs/screenshot.png">
 
 ## Usage
 
