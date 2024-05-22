@@ -1,6 +1,8 @@
 # ex_gleam_lustre_gleez
 
-<img alt="Demo image" width="300" src="./imgs/screenshot.png">
+<div align="center">
+<img alt="Demo image" width="500" src="./imgs/screenshot.png">
+</div>
 
 ## Usage
 
