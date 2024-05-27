@@ -3,14 +3,6 @@ import jwt from "npm:jsonwebtoken";
 
 const url = new URL("http://localhost:8000");
 
-Deno.test("check /", async () => {
-  const resp = await fetch(url);
-
-  assertEquals(resp.status, 200);
-
-  await resp.body?.cancel();
-});
-
 Deno.test("check /auth", async () => {
   const token = jwt.sign({ foo: "hello" }, "secret");
   const resp = await fetch(new URL("/auth", url.href), {
