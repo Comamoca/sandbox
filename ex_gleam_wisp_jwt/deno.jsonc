@@ -1,0 +1,5 @@
+{
+	"tasks": {
+		"api_test": "deno test --allow-net"
+	}
+}
