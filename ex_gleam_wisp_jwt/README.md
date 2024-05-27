@@ -1,4 +1,6 @@
-# ex_gleam_jwt
+# ex_gleam_wisp_jwt
+
+JWT authorization for [wisp](https://gleam-wisp.github.io/wisp/).
 
 ```gleam
 pub fn handle_request(req: Request) -> Response {
