@@ -15,7 +15,7 @@ An Gleam example app for use gleam_pgo, Lustre SSR, Sketch✨
 <div align="center">
 
 <a href="https://gyazo.com/913095431ddac96b7cb7aa2b645aa131">
-<img height="400" src="https://i.gyazo.com/913095431ddac96b7cb7aa2b645aa131.png" alt="Image from Gyazo" width="1322.09"/>
+<img style="width: 70%" src="https://i.gyazo.com/913095431ddac96b7cb7aa2b645aa131.png" alt="Image from Gyazo" width="1322.09"/>
 </a>
 
 </div>
