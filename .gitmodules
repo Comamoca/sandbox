@@ -16,3 +16,9 @@
 [submodule "c-fzy/fzy"]
 	path = c-fzy/fzy
 	url = https://github.com/jhawthorn/fzy
+[submodule "ex_gleam_submodule_package/vendor/maths"]
+	path = ex_gleam_submodule_package/vendor/maths
+	url = https://github.com/gleam-community/maths
+[submodule "ex_gleam_k255_fork/src/k256"]
+	path = ex_gleam_k255_fork/src/k256
+	url = https://github.com/Comamoca/k256
