@@ -1,0 +1,34 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@hono/hono": "jsr:@hono/hono@4.4.12",
+      "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
+      "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.1"
+    },
+    "jsr": {
+      "@hono/hono@4.4.12": {
+        "integrity": "75658e5402dc95df483a1961b8fb4ef73391a2c70109f97ad8e12d3b7b6f03c5"
+      },
+      "@std/assert@0.226.0": {
+        "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.0"
+        ]
+      },
+      "@std/internal@1.0.1": {
+        "integrity": "6f8c7544d06a11dd256c8d6ba54b11ed870aac6c5aeafff499892662c57673e6"
+      }
+    }
+  },
+  "remote": {
+    "https://esm.sh/@cloudflare/workers-types@4.20240620.0": "fba357ac4f566d4898ca421beb48ddbe12cbdf9af720eb8d51c399cc5867afb8",
+    "https://esm.sh/v135/@cloudflare/workers-types@4.20240620.0/denonext/workers-types.mjs": "0af4efa686fd4f924dfb2f4d7f9a2be2a82fb906e5aa220e7ed217af67b9d460"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono",
+      "jsr:@std/assert@^0.226.0"
+    ]
+  }
+}
