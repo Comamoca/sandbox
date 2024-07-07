@@ -35,6 +35,10 @@
 
 </div>
 
+> [!NOTE]
+> 一部のディレクトリは[Comamoca/scaffold](https://github.com/Comamoca/scaffold)へと移動されました。
+> もし404ページを見つけた際はそちらも確認してください。
+
 ## 🚀 使い方
 
 各ディレクトリにつき1プロジェクトが格納されています。
