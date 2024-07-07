@@ -1,0 +1,46 @@
+services:
+  redis:
+    networks: 
+      - container_network
+    image: redis:7.0.15-alpine3.20
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
+
+  gleam:
+    networks: 
+      - container_network
+    build:
+      context: .
+      dockerfile: ./docker/gleam/Dockerfile
+    # image: ghcr.io/gleam-lang/gleam:v1.2.0-erlang
+    ports:
+      - "8000:8000"
+    environment:
+       - CLIENT_ID=${CLIENT_ID}
+       - CLIENT_SECRET=${CLIENT_SECRET}
+       - REDIS_PORT=${REDIS_PORT}
+       - REDIS_PASSWORD=${REDIS_PASSWORD}
+       - REDIS_HOST=${REDIS_HOST}
+
+  oauth2-proxy:
+    networks: 
+      - container_network
+    ports:
+      - "4180:4180"
+    image: bitnami/oauth2-proxy:latest
+    environment:
+      OAUTH2_PROXY_HTTP_ADDRESS: 127.0.0.1:4180
+      OAUTH2_PROXY_PROVIDER: github
+      OAUTH2_PROXY_CLIENT_ID: ${CLIENT_ID}
+      OAUTH2_PROXY_CLIENT_SECRET: ${CLIENT_SECRET}
+      OAUTH2_PROXY_COOKIE_SECRET: ${COOKIE_SECRET}
+      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+      OAUTH2_PROXY_COOKIE_SECURE: 'false' # Does not use HTTPS
+      OAUTH2_PROXY_REDIRECT_URL: http://localhost:8000/auth/callback/code
+      # OAUTH2_PROXY_SESSION_STORE_TYPE: redis
+      # OAUTH2_PROXY_REDIS_CONNECTION_URL: redis://redis/
+
+networks:
+  container_network:
+    external: true  
