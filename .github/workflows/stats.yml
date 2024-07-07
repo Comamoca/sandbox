@@ -1,0 +1,25 @@
+on: 
+  schedule:
+    - cron: '50 23 * * *'
+
+jobs:
+  stats-write:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: baptiste0928/cargo-install@v3
+        with:
+          crate: tokei
+      - uses: actions/checkout@v3
+      - run: |
+          # Write data for confirmation
+          tokei ./stats/plain/$(date '+%Y-%m-%d')
+
+          # Compare with yesterday's
+          diff -q ./stats/plain/$(date '+%Y-%m-%d') ./stats/plain/$(date --date '1 day ago' '+%Y-%m-%d') > /dev/null 2>&1
+          if [ $? -eq 1 ]; then
+          # Write information only when there is a change
+              tokei --output json > ./stats/json/$(date '+%Y-%m-%d').json
+          fi
+      - uses: stefanzweifel/git-auto-commit-action@v5
