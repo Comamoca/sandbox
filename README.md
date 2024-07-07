@@ -32,7 +32,7 @@ stored.
 </div>
 
 > [!NOTE]
-> Some repositories have been moved to [Comamoca/scaffold](https://github.com/Comamoca/scaffold).
+> Some directories have been moved to [Comamoca/scaffold](https://github.com/Comamoca/scaffold).
 > If you find a 404 page, please check that as well.
 
 ## 🚀 How to use
