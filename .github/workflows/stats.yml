@@ -13,13 +13,21 @@ jobs:
           crate: tokei
       - uses: actions/checkout@v3
       - run: |
-          # Write data for confirmation
-          tokei > ./stats/plain/$(date '+%Y-%m-%d')
-
-          # Compare with yesterday's
-          diff -q ./stats/plain/$(date '+%Y-%m-%d') ./stats/plain/$(date --date '1 day ago' '+%Y-%m-%d') > /dev/null 2>&1
-          if [ $? -eq 1 ]; then
-          # Write information only when there is a change
-              tokei --output json > ./stats/json/$(date '+%Y-%m-%d').json
-          fi
+           TODAY=`date '+%Y-%m-%d'`
+           YESTERDAY=`date --date '1 day ago' '+%Y-%m-%d'`
+           
+           # Write data for confirmation
+           tokei > ./stats/plain/${TODAY}
+           
+           if [ ! -e ${YESTERDAY} ]; then
+               tokei --output json > ./stats/json/${TODAY}.json
+               exit
+           fi
+           
+           # Compare with yesterday's
+           diff -q ./stats/plain/${TODAY} ./stats/plain/${YESTERDAY} > /dev/null 2>&1
+           if [ $? -eq 1 ]; then
+               # Write information only when there is a change
+               tokei --output json > ./stats/json/${TODAY}.json
+           fi
       - uses: stefanzweifel/git-auto-commit-action@v5
