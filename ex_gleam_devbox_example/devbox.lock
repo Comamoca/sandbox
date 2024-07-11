@@ -1,0 +1,149 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "erlang@latest": {
+      "last_modified": "2024-07-07T16:08:25Z",
+      "resolved": "github:NixOS/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e#erlang",
+      "source": "devbox-search",
+      "version": "25.3.2.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/clz106pag52mfj1d4s52bhyfjrx1qn2j-erlang-25.3.2.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/clz106pag52mfj1d4s52bhyfjrx1qn2j-erlang-25.3.2.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zi0g4jzm20sv1bvfq4a850zbpr7739n5-erlang-25.3.2.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zi0g4jzm20sv1bvfq4a850zbpr7739n5-erlang-25.3.2.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6vhf0bspqf3c6n2x5wal6rgvf3rhsyw3-erlang-25.3.2.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6vhf0bspqf3c6n2x5wal6rgvf3rhsyw3-erlang-25.3.2.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v16j94f6kldyn20h95l52dqc1xaz03cr-erlang-25.3.2.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v16j94f6kldyn20h95l52dqc1xaz03cr-erlang-25.3.2.12"
+        }
+      }
+    },
+    "gleam@latest": {
+      "last_modified": "2024-07-07T16:08:25Z",
+      "resolved": "github:NixOS/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e#gleam",
+      "source": "devbox-search",
+      "version": "1.2.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/850b3clgvi6bladyc50d4ryip87blzic-gleam-1.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/850b3clgvi6bladyc50d4ryip87blzic-gleam-1.2.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6l8d2xx3xkbrjbfb7xsdnfb20wlzbg5d-gleam-1.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6l8d2xx3xkbrjbfb7xsdnfb20wlzbg5d-gleam-1.2.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6h08c5x5qwkwd53izrffrywll2ikv6q6-gleam-1.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6h08c5x5qwkwd53izrffrywll2ikv6q6-gleam-1.2.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1s3mhi659hx3az29mgch7k5f4mqlxdsw-gleam-1.2.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1s3mhi659hx3az29mgch7k5f4mqlxdsw-gleam-1.2.1"
+        }
+      }
+    },
+    "rebar3@latest": {
+      "last_modified": "2024-07-07T16:08:25Z",
+      "resolved": "github:NixOS/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e#rebar3",
+      "source": "devbox-search",
+      "version": "3.23.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zp4rnzvf6fjmq2m33wz51ddh6wqbrkb5-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zp4rnzvf6fjmq2m33wz51ddh6wqbrkb5-rebar3-3.23.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mnlhh6z85ff3kh9fkjznpdc87k0p2vyg-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mnlhh6z85ff3kh9fkjznpdc87k0p2vyg-rebar3-3.23.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ga243qv02mbwmkhsrx5sfbpa02qp3x4w-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ga243qv02mbwmkhsrx5sfbpa02qp3x4w-rebar3-3.23.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8vybmic9yi13jpfjpblp712ida2rhrq0-rebar3-3.23.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8vybmic9yi13jpfjpblp712ida2rhrq0-rebar3-3.23.0"
+        }
+      }
+    }
+  }
+}
