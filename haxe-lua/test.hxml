@@ -1,0 +1,5 @@
+-cp src
+-cp test
+-lib utest
+--run Main
+--lua bin/test/main.lua

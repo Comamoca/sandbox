@@ -1,0 +1,3 @@
+-cp src
+--lua bin/lua/main.lua
+--main Main
