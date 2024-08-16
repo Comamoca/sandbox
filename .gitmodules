@@ -22,3 +22,6 @@
 [submodule "ex_gleam_k255_fork/src/k256"]
 	path = ex_gleam_k255_fork/src/k256
 	url = https://github.com/Comamoca/k256
+[submodule "stdlib"]
+	path = ex_gleam_glistix/external/stdlib
+	url = https://github.com/glistix/stdlib
