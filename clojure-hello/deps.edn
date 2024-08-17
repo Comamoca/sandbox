@@ -9,9 +9,9 @@
                  {:mvn/version "0.10.3"}}
           :ns-default build}
   :test {:extra-paths ["test"]
+         :main-opts ["-m" "kaocha.runner"]
          :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
-                      io.github.cognitect-labs/test-runner
-                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}}
+                      lambdaisland/kaocha {:mvn/version "1.60.972"}}}
   :native-image {:main-opts ["-m" "clj.native-image"
                              "clojure-hello.clojure-hello"
                              "--initialize-at-build-time"
