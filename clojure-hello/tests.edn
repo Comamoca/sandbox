@@ -1,0 +1,6 @@
+#kaocha/v1
+{
+ :color? true
+ :reporter [kaocha.report/tap]
+ randomize? true
+ :fail-fast? true}
