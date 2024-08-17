@@ -1,0 +1,23 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
+ :aliases
+ {:run-m {:ns-default clojure-hello.clojure-hello
+          :main-opts ["-M" "-m" "clojure-hello.clojure-hello"]
+          :exec-fn main-m
+          :exec-args {:arg 25}}
+  :build {:deps {io.github.clojure/tools.build
+                 {:mvn/version "0.10.3"}}
+          :ns-default build}
+  :test {:extra-paths ["test"]
+         :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
+                      io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}}
+  :native-image {:main-opts ["-m" "clj.native-image"
+                             "clojure-hello.clojure-hello"
+                             "--initialize-at-build-time"
+                             "-o clojure-hello"]
+                 :jvm-opts ["-Dclojure.compiler.direct-linking=true"]
+                 :extra-deps
+                 {clj.native-image/clj.native-image
+                  {:git/url "https://github.com/taylorwood/clj.native-image.git"
+                   :sha "7708e7fd4572459c81f6a6b8e44c96f41cdd92d4"}}}}}
