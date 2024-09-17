@@ -1,7 +1,0 @@
-{
-  "tasks": {
-    "serve": "pnpm exec http-server -c-1",
-    "build": "deno run -A build.js"
-  },
-  "importMap": "./import_map.json"
-}
