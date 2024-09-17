@@ -35,6 +35,13 @@ stored.
 > Some directories have been moved to [Comamoca/scaffold](https://github.com/Comamoca/scaffold).
 > If you find a 404 page, please check that as well.
 
+> [!NOTE]
+> Some directories have been moved to `Comamoca/sandbox-*`.
+> If you find a 404 page, please check that as well.
+> The targeted directories are those with the prefixes `ex_gleam_*`, `rust-*`, and `deno-*`.
+> Those directories are moved to their respective repositories.
+> e.g. `ex_gleam_json` have been moved to `Comamoca/sandbox-gleam/ex_gleam_json`.
+
 ## 🚀 How to use
 
 Each directory contains one project. Since `README` is placed in each directory,
