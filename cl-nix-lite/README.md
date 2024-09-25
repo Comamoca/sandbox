@@ -32,7 +32,7 @@ nix develop
 ```
 ## 📝 Todo
 
-- [ ] Transfer to flake-parts.
+- [x] Transfer to flake-parts.
 - [ ] Add nix formatter.
 - [ ] Run test when `nix flake check`.
 
