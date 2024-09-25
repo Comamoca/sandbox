@@ -1,10 +1,17 @@
-(asdf:defsystem :hello
+(defsystem "hello"
   :class :package-inferred-system
-  :description ""
-  :version "0.0.1"
   :author "Comamoca"
+  :depends-on("hello/hello")
+  :pathname "src"
   :build-operation "program-op"
   :build-pathname "hello"
-  :entry-point "hello:main"
-  :pathname "src"
-  :depends-on ("hello/main"))
+  :entry-point "hello/hello:main"
+  :in-order-to ((test-op (test-op "hello/tests"))))
+
+(defsystem "hello/tests"
+  :author "Comamoca"
+  :depends-on ("hello/tests/main"
+               "hello"
+               "rove")
+  :class :package-inferred-system
+  :perform (test-op (op c) (symbol-call :rove :run c)))
