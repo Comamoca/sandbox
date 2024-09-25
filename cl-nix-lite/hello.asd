@@ -1,0 +1,10 @@
+(asdf:defsystem :hello
+  :class :package-inferred-system
+  :description ""
+  :version "0.0.1"
+  :author "Comamoca"
+  :build-operation "program-op"
+  :build-pathname "hello"
+  :entry-point "hello:main"
+  :pathname "src"
+  :depends-on ("hello/main"))
