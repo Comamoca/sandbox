@@ -11,7 +11,3 @@
 
 (deftest sub-add-test
   (ok (= 2 (add 1 1))))
-
-;; worng test
-;; (deftest sub-add-test
-;;   (ok (= 100 (add 1 1))))
