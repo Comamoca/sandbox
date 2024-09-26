@@ -1,0 +1,8 @@
+clean:
+    find . -type f -name "*.fasl" -delete
+
+build:
+    nix build
+
+check:
+    nix flake check
