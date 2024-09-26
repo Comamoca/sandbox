@@ -1,13 +1,17 @@
-(defpackage #:hello/tests/main
+(defpackage :hello/tests/main
   (:use :cl
         :rove
         :hello/sub)
-  (:shadowing-import-from #:rove
-                          #:*debug-on-error*))
-(in-package #:hello/tests/main)
+  (:shadowing-import-from :rove
+                          :*debug-on-error*))
+(in-package :hello/tests/main)
 
 (deftest example-test
   (ok (= 1 1)))
 
 (deftest sub-add-test
   (ok (= 2 (add 1 1))))
+
+;; worng test
+;; (deftest sub-add-test
+;;   (ok (= 100 (add 1 1))))

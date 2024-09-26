@@ -43,6 +43,18 @@
               src = pkgs.lib.cleanSource ./.;
               dontStrip = true;
 
+              preBuild = ''
+                ${pkgs.sbcl}/bin/sbcl --script <<EOF
+                (require :asdf)
+                (asdf:load-system :rove)
+
+                (if (rove:run :hello/tests)
+                    (format t "Test success.~%")
+                    (error "Test failed."))
+                (exit)
+                EOF
+                '';
+
               installPhase = ''
                 install -D src/hello $out/bin/hello
               '';
@@ -56,6 +68,10 @@
             };
 
             settings.formatter = { };
+          };
+
+          checks = {
+            test = app;
           };
 
           packages.default = app;
