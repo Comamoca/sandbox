@@ -50,6 +50,12 @@ build the environment according to its contents.
 Using [Ablaze-MIRAI/wikitool](https://github.com/Ablaze-MIRAI/wikitool) makes it
 easier to browse the contents of each directory.
 
+## 📦 Even more sandboxes
+
+- [sandbox-gleam](https://github.com/comamoca/sandbox-gleam)
+- [sandbox-rust](https://github.com/comamoca/sandbox-rust)
+- [sandbox-deno](https://github.com/comamoca/sandbox-deno)
+
 ## 💕 Special Thanks
 
 - Ablaze-MIRAI
