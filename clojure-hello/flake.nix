@@ -107,12 +107,11 @@
 
             # Specify languages like this.
             # There is a limit to the number of languages for which the version attribute can be specified.
-            # languages = {
-            #   php = {
-            #     enable = true;
-            #     version = "8.4";
-            #   };
-            # };
+            languages = {
+              clojure = {
+                enable = true;
+              };
+            };
 
             enterShell = '''';
           };

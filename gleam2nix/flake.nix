@@ -1,6 +1,4 @@
 {
-  description = "A basic flake to with Gleam language";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
     treefmt-nix.url = "github:numtide/treefmt-nix";

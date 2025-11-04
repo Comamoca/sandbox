@@ -103,7 +103,10 @@
 
           # When execute `nix develop`, you go in shell installed nil.
           devenv.shells.default = {
-            packages = [ pkgs.nil ];
+            packages = with pkgs; [
+              nil
+              cljstyle
+            ];
 
             # Specify languages like this.
             # There is a limit to the number of languages for which the version attribute can be specified.

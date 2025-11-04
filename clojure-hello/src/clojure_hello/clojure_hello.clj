@@ -2,7 +2,6 @@
   (:require [clojure.string :as string])
   (:gen-class))
 
-
 (defn fizzbuzz-match [num]
   (case (mod num 15)
       (0) "FizzBuzz"
