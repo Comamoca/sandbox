@@ -1,0 +1,49 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@core/unknownutil@*": "4.3.0",
+    "jsr:@core/unknownutil@^4.3.0": "4.3.0",
+    "jsr:@denops/core@7": "7.0.1",
+    "jsr:@denops/core@^8.0.1": "8.0.1",
+    "jsr:@denops/std@*": "8.2.0",
+    "jsr:@denops/std@8": "8.2.0",
+    "jsr:@std/semver@1": "1.0.5",
+    "jsr:@std/semver@^1.0.5": "1.0.5",
+    "jsr:@std/ulid@1": "1.0.0"
+  },
+  "jsr": {
+    "@core/unknownutil@4.3.0": {
+      "integrity": "538a3687ffa81028e91d148818047df219663d0da671d906cecd165581ae55cc"
+    },
+    "@denops/core@7.0.1": {
+      "integrity": "ede39eec60de6d5bf0fbc0337d3e420a9689cc48afea8c71752e6c0fb630bde0"
+    },
+    "@denops/core@8.0.1": {
+      "integrity": "699c70b07b2347febb96972c857fb8325ad8efa99936a0a8c0bb2be82a8b8f32"
+    },
+    "@denops/std@7.6.0": {
+      "integrity": "468a5b4121378a845bbc4cd705fe0075dff9cd0af41fbb8a797870535af5c4c8",
+      "dependencies": [
+        "jsr:@core/unknownutil@^4.3.0",
+        "jsr:@denops/core@7",
+        "jsr:@std/semver@1",
+        "jsr:@std/ulid"
+      ]
+    },
+    "@denops/std@8.2.0": {
+      "integrity": "6b473515c30a15b3ffe88accf11eabb7ed6210a1042311b563875bb10882f729",
+      "dependencies": [
+        "jsr:@core/unknownutil@^4.3.0",
+        "jsr:@denops/core@^8.0.1",
+        "jsr:@std/semver@^1.0.5",
+        "jsr:@std/ulid"
+      ]
+    },
+    "@std/semver@1.0.5": {
+      "integrity": "529f79e83705714c105ad0ba55bec0f9da0f24d2f726b6cc1c15e505cc2c0624"
+    },
+    "@std/ulid@1.0.0": {
+      "integrity": "d41c3d27a907714413649fee864b7cde8d42ee68437d22b79d5de4f81d808780"
+    }
+  }
+}
