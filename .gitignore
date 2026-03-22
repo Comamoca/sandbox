@@ -323,3 +323,9 @@ _build
 
 .devenv
 .direnv
+
+# ReScript compiler output
+*.res.js
+
+# Nim compiler output
+html2karax_test/src/html2karax_test.js
