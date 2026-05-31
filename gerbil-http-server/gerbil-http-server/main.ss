@@ -17,5 +17,7 @@
     "Not found"))
 
 (def (root-handler req res)
-  (http-response-write res 200 '(("Content-Type" . "text/plain"))
-    (string-append "hello" "\n")))
+  (let* ((body "hello\n"))
+    (http-response-write res 200
+      `(("Content-Type" . "text/plain") ("Content-Length" . ,(number->string (string-length body))))
+      body)))
